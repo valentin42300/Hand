@@ -1,1 +1,4 @@
 venv
+.idea
+Hand/settings.py
+db.sqlite3
