@@ -15,8 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from web_front import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('api-auth/', include('rest_framework.urls')),
+    # path('api/token/', TokenObtainPairView.as_view(), name='obtain_token'),
+    # path('api/token/refresh/', TokenRefeshView.as_view(), name='refresh_token'),
+    #  r   path('', include(router.urls)),
+    # path('about-us/', views.about),
+    # path('', views.index_view)
 ]
