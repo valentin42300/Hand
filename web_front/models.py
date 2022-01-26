@@ -86,4 +86,4 @@ class Location(models.Model):
     org = models.fields.CharField(max_length=100, name='org', null=True, blank=True)
 
     def __str__(self):
-        return f'{self.city / self.country}'
+        return f'{self.city} / {self.country}'
