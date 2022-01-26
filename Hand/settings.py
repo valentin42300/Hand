@@ -78,14 +78,7 @@ WSGI_APPLICATION = 'Hand.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'admin_apitest',
-        'USER': 'api',
-        'PASSWORD': 'AlhB02Lib32*',
-        'HOST': '51.91.101.47',
-        'PORT': '5432',
-    }
+
 }
 
 
