@@ -1,3 +1,9 @@
-asgiref==3.4.1
-Django==4.0.1
-sqlparse==0.4.2
+asgiref
+Django
+django-filter
+djangorestframework
+djangorestframework-simplejwt
+psycopg2-binary
+PyJWT
+pytz
+sqlparse
